@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-   audio { display:none;}
+   
 </style>
 </head>
 <body bgcolor="black">
@@ -27,15 +27,12 @@
     <h3 style="color: yellow"> ~Reza~ </h3>
   
 
-<video autoplay loop muted>
-    <source src="1.mp3" >
-</video>
-
-<script>
-    window.onload = function () {
-        document.querySelector("video").muted = false;
-    };
-</script>
+<div id="player">
+    <audio controls autoplay>
+     <source src="1.mp3" type="audio/mpeg">
+                unsupported !! 
+    </audio>
+</div>
 
 
 </center></body></html>
